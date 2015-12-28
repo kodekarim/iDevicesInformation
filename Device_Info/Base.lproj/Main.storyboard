@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="baC-TL-tOT">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="UiV-vC-FCB">
+            <objects>
+                <viewController id="baC-TL-tOT" customClass="ViewController" customModule="Device_Info" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EYJ-gD-vUP"/>
+                        <viewControllerLayoutGuide type="bottom" id="eFw-uc-Il9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Ki-Ic-dWL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device Details" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVB-nW-g2o">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="f8b-3Q-x4g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="f8b-3Q-x4g"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="179" y="63" width="42" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="f8b-3Q-x4g"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZc-mX-vGZ">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="OFq-FZ-fGI">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="119"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="30" id="wEO-HU-IwD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="OFq-FZ-fGI"/>
+                                        <exclude reference="wEO-HU-IwD"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="OFq-FZ-fGI"/>
+                                        <include reference="wEO-HU-IwD"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Version" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDx-OA-Xpa">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9Pc-Ca-eZY"/>
+                                    <constraint firstAttribute="width" constant="164" id="kvw-j4-Xwc">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="119"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="kvw-j4-Xwc"/>
+                                        <exclude reference="9Pc-Ca-eZY"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="kvw-j4-Xwc"/>
+                                        <include reference="9Pc-Ca-eZY"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBj-kE-uZn">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LDt-UJ-ZJP"/>
+                                    <constraint firstAttribute="width" constant="164" id="N09-Hc-uRf">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="119"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="LDt-UJ-ZJP"/>
+                                        <exclude reference="N09-Hc-uRf"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="LDt-UJ-ZJP"/>
+                                        <include reference="N09-Hc-uRf"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bo2-AQ-fPA">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="km0-Q9-afr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="km0-Q9-afr"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="km0-Q9-afr"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ykk-lW-Spt">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="jyz-bL-vpa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="jyz-bL-vpa"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="jyz-bL-vpa"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Available" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w71-P0-m0V">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HfA-jQ-vV1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="HfA-jQ-vV1"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="HfA-jQ-vV1"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simulator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqM-ue-oaO">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="wev-Xu-xB4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="wev-Xu-xB4"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="wev-Xu-xB4"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device Model" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AkJ-9M-J1i">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="Jwh-7T-NAm">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="119"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="30" id="gPF-t0-u5O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gPF-t0-u5O"/>
+                                        <exclude reference="Jwh-7T-NAm"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="gPF-t0-u5O"/>
+                                        <include reference="Jwh-7T-NAm"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pd2-C0-vlL">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="D7j-oQ-qz0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="D7j-oQ-qz0"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="D7j-oQ-qz0"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Battery Status" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIg-xX-h9m">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Pqi-Ko-FRf"/>
+                                    <constraint firstAttribute="width" constant="164" id="fEn-Ho-vhA">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="119"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Pqi-Ko-FRf"/>
+                                        <exclude reference="fEn-Ho-vhA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Pqi-Ko-FRf"/>
+                                        <include reference="fEn-Ho-vhA"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="OqM-ue-oaO" secondAttribute="trailing" id="1oR-gr-cst"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="AkJ-9M-J1i" secondAttribute="leading" id="3rK-ol-Zds"/>
+                            <constraint firstItem="OqM-ue-oaO" firstAttribute="leading" secondItem="zBj-kE-uZn" secondAttribute="trailing" constant="8" id="5fC-Wr-s1b">
+                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="Ykk-lW-Spt" firstAttribute="leading" secondItem="wDx-OA-Xpa" secondAttribute="trailing" constant="8" id="9h5-sZ-Ke6">
+                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="w71-P0-m0V" secondAttribute="trailing" id="Bjf-8i-1hW"/>
+                            <constraint firstItem="Pd2-C0-vlL" firstAttribute="leading" secondItem="AkJ-9M-J1i" secondAttribute="trailing" constant="8" id="DG6-Iq-PZa">
+                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="zBj-kE-uZn" firstAttribute="top" secondItem="tVB-nW-g2o" secondAttribute="bottom" constant="18" id="GI1-ww-dBe"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="wDx-OA-Xpa" secondAttribute="leading" id="H9C-3A-SJn"/>
+                            <constraint firstItem="Ykk-lW-Spt" firstAttribute="top" secondItem="Bo2-AQ-fPA" secondAttribute="bottom" constant="8" id="IAM-3x-BhB"/>
+                            <constraint firstItem="wDx-OA-Xpa" firstAttribute="top" secondItem="GZc-mX-vGZ" secondAttribute="bottom" constant="8" id="JZR-cP-uEI"/>
+                            <constraint firstItem="QIg-xX-h9m" firstAttribute="top" secondItem="wDx-OA-Xpa" secondAttribute="bottom" constant="8" id="LYh-T3-8PT"/>
+                            <constraint firstItem="w71-P0-m0V" firstAttribute="leading" secondItem="QIg-xX-h9m" secondAttribute="trailing" constant="8" id="Mrs-yM-GNr">
+                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="GZc-mX-vGZ" firstAttribute="top" secondItem="AkJ-9M-J1i" secondAttribute="bottom" constant="8" id="OSH-D6-aq1"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="zBj-kE-uZn" secondAttribute="leading" id="Orz-aF-hBn"/>
+                            <constraint firstItem="Bo2-AQ-fPA" firstAttribute="top" secondItem="Pd2-C0-vlL" secondAttribute="bottom" constant="8" id="R6V-0E-PmK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tVB-nW-g2o" secondAttribute="trailing" id="RT4-SG-9L2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ykk-lW-Spt" secondAttribute="trailing" id="TTB-lb-0RX"/>
+                            <constraint firstItem="w71-P0-m0V" firstAttribute="top" secondItem="Ykk-lW-Spt" secondAttribute="bottom" constant="8" id="Uuh-su-l4T"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="QIg-xX-h9m" secondAttribute="leading" id="YZt-GL-nTs"/>
+                            <constraint firstItem="AkJ-9M-J1i" firstAttribute="top" secondItem="zBj-kE-uZn" secondAttribute="bottom" constant="8" id="aPd-ce-G2s"/>
+                            <constraint firstItem="OqM-ue-oaO" firstAttribute="top" secondItem="tVB-nW-g2o" secondAttribute="bottom" constant="18" id="bVL-Uh-PWR"/>
+                            <constraint firstItem="Bo2-AQ-fPA" firstAttribute="leading" secondItem="GZc-mX-vGZ" secondAttribute="trailing" constant="8" id="e0c-RL-zRN">
+                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstAttribute="leadingMargin" secondItem="tVB-nW-g2o" secondAttribute="leading" id="hf0-3z-Fnm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pd2-C0-vlL" secondAttribute="trailing" id="lio-r9-vgJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bo2-AQ-fPA" secondAttribute="trailing" id="lmY-yo-geq"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="GZc-mX-vGZ" secondAttribute="leading" id="lyY-MD-SHl"/>
+                            <constraint firstItem="Pd2-C0-vlL" firstAttribute="top" secondItem="OqM-ue-oaO" secondAttribute="bottom" constant="8" id="vPW-f9-li6"/>
+                            <constraint firstItem="tVB-nW-g2o" firstAttribute="top" secondItem="EYJ-gD-vUP" secondAttribute="bottom" constant="8" id="vnq-Z6-R2E"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="tVB-nW-g2o"/>
+                                <exclude reference="GZc-mX-vGZ"/>
+                                <exclude reference="wDx-OA-Xpa"/>
+                                <exclude reference="zBj-kE-uZn"/>
+                                <exclude reference="Bo2-AQ-fPA"/>
+                                <exclude reference="Ykk-lW-Spt"/>
+                                <exclude reference="w71-P0-m0V"/>
+                                <exclude reference="OqM-ue-oaO"/>
+                                <exclude reference="AkJ-9M-J1i"/>
+                                <exclude reference="Pd2-C0-vlL"/>
+                                <exclude reference="QIg-xX-h9m"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="GI1-ww-dBe"/>
+                                <exclude reference="Orz-aF-hBn"/>
+                                <exclude reference="LYh-T3-8PT"/>
+                                <exclude reference="YZt-GL-nTs"/>
+                                <exclude reference="OSH-D6-aq1"/>
+                                <exclude reference="lyY-MD-SHl"/>
+                                <exclude reference="R6V-0E-PmK"/>
+                                <exclude reference="e0c-RL-zRN"/>
+                                <exclude reference="lmY-yo-geq"/>
+                                <exclude reference="5fC-Wr-s1b"/>
+                                <exclude reference="bVL-Uh-PWR"/>
+                                <exclude reference="1oR-gr-cst"/>
+                                <exclude reference="H9C-3A-SJn"/>
+                                <exclude reference="JZR-cP-uEI"/>
+                                <exclude reference="Bjf-8i-1hW"/>
+                                <exclude reference="Uuh-su-l4T"/>
+                                <exclude reference="Mrs-yM-GNr"/>
+                                <exclude reference="3rK-ol-Zds"/>
+                                <exclude reference="aPd-ce-G2s"/>
+                                <exclude reference="vPW-f9-li6"/>
+                                <exclude reference="DG6-Iq-PZa"/>
+                                <exclude reference="lio-r9-vgJ"/>
+                                <exclude reference="RT4-SG-9L2"/>
+                                <exclude reference="hf0-3z-Fnm"/>
+                                <exclude reference="vnq-Z6-R2E"/>
+                                <exclude reference="IAM-3x-BhB"/>
+                                <exclude reference="9h5-sZ-Ke6"/>
+                                <exclude reference="TTB-lb-0RX"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="tVB-nW-g2o"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="GZc-mX-vGZ"/>
+                                <include reference="wDx-OA-Xpa"/>
+                                <include reference="zBj-kE-uZn"/>
+                                <include reference="Bo2-AQ-fPA"/>
+                                <include reference="Ykk-lW-Spt"/>
+                                <include reference="w71-P0-m0V"/>
+                                <include reference="OqM-ue-oaO"/>
+                                <include reference="AkJ-9M-J1i"/>
+                                <include reference="Pd2-C0-vlL"/>
+                                <include reference="QIg-xX-h9m"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="GI1-ww-dBe"/>
+                                <include reference="Orz-aF-hBn"/>
+                                <include reference="LYh-T3-8PT"/>
+                                <include reference="YZt-GL-nTs"/>
+                                <include reference="OSH-D6-aq1"/>
+                                <include reference="lyY-MD-SHl"/>
+                                <include reference="R6V-0E-PmK"/>
+                                <include reference="e0c-RL-zRN"/>
+                                <include reference="lmY-yo-geq"/>
+                                <include reference="5fC-Wr-s1b"/>
+                                <include reference="bVL-Uh-PWR"/>
+                                <include reference="1oR-gr-cst"/>
+                                <include reference="H9C-3A-SJn"/>
+                                <include reference="JZR-cP-uEI"/>
+                                <include reference="Bjf-8i-1hW"/>
+                                <include reference="Uuh-su-l4T"/>
+                                <include reference="Mrs-yM-GNr"/>
+                                <include reference="3rK-ol-Zds"/>
+                                <include reference="aPd-ce-G2s"/>
+                                <include reference="vPW-f9-li6"/>
+                                <include reference="DG6-Iq-PZa"/>
+                                <include reference="lio-r9-vgJ"/>
+                                <include reference="RT4-SG-9L2"/>
+                                <include reference="hf0-3z-Fnm"/>
+                                <include reference="vnq-Z6-R2E"/>
+                                <include reference="IAM-3x-BhB"/>
+                                <include reference="9h5-sZ-Ke6"/>
+                                <include reference="TTB-lb-0RX"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="batteryStatus" destination="w71-P0-m0V" id="t9j-ae-uOO"/>
+                        <outlet property="deviceFamily" destination="OqM-ue-oaO" id="8Ph-PW-eil"/>
+                        <outlet property="deviceName" destination="Bo2-AQ-fPA" id="fSa-a0-xU7"/>
+                        <outlet property="deviceType" destination="Pd2-C0-vlL" id="G4B-Df-Su2"/>
+                        <outlet property="iOSVersion" destination="Ykk-lW-Spt" id="Nik-Cn-FLp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H2h-hV-sPf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904.5" y="180"/>
+        </scene>
+    </scenes>
+</document>
