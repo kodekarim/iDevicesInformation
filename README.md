@@ -10,7 +10,7 @@ Just import the class file to your project and you are ready to go..
 #To Know the device type
         let device = Device ()
 
-        deviceType.text = "\(device)" </p1>
+        deviceType.text = "\(device)"
         
 #To Know Device name
          deviceName.text = UIDevice.currentDevice().name
@@ -19,8 +19,8 @@ Just import the class file to your project and you are ready to go..
          iOSVersion.text = UIDevice.currentDevice().systemVersion
 
 #To Check Battery Status
-         device.batteryState == .Charging(65)</p1>
-Here "95" is the battery percentage to track</p2><br>
+         device.batteryState == .Charging(65)
+Here "95" is the battery percentage to track
 For example if the device battery percentage is more then 90
 Then graphic quality = HIGH
 
