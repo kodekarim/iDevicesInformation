@@ -4,7 +4,7 @@ A Light Weight and Updated Code for Device Detection and many other functionalit
 <img src="https://cloud.githubusercontent.com/assets/13949425/12014597/7836da1e-ad55-11e5-97ea-0dee94a825c7.png" width="30%"></img> 
 
 #How To Use
-Just import the class file to your project and you are ready to go..
+Just import the source file to your project and you are ready to go..
 
 #Implementation
 #To Know the device type
@@ -20,7 +20,7 @@ Just import the class file to your project and you are ready to go..
 
 #To Check Battery Status
          device.batteryState == .Charging(65)
-Here "95" is the battery percentage to track
+Here "65" is the battery percentage to track
 For example if the device battery percentage is more then 90
 Then graphic quality = HIGH
 
