@@ -99,9 +99,8 @@
 		90EF77361C30FFE20008D4E6 /* Device_Info */ = {
 			isa = PBXGroup;
 			children = (
-				90EF77671C30FFF50008D4E6 /* Class */,
-				90EF77371C30FFE20008D4E6 /* AppDelegate.swift */,
-				90EF77391C30FFE20008D4E6 /* ViewController.swift */,
+				90F006901C31107D00558B26 /* Source */,
+				90F006911C31109100558B26 /* Example */,
 				90EF773B1C30FFE20008D4E6 /* Main.storyboard */,
 				90EF773E1C30FFE20008D4E6 /* Assets.xcassets */,
 				90EF77401C30FFE20008D4E6 /* LaunchScreen.storyboard */,
@@ -128,12 +127,21 @@
 			path = Device_InfoUITests;
 			sourceTree = "<group>";
 		};
-		90EF77671C30FFF50008D4E6 /* Class */ = {
+		90F006901C31107D00558B26 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				90EF77651C30FFF10008D4E6 /* iDevices.swift */,
 			);
-			name = Class;
+			name = Source;
+			sourceTree = "<group>";
+		};
+		90F006911C31109100558B26 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				90EF77371C30FFE20008D4E6 /* AppDelegate.swift */,
+				90EF77391C30FFE20008D4E6 /* ViewController.swift */,
+			);
+			name = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,6 +507,7 @@
 				90EF775E1C30FFE30008D4E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90EF775F1C30FFE30008D4E6 /* Build configuration list for PBXNativeTarget "Device_InfoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +516,7 @@
 				90EF77611C30FFE30008D4E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90EF77621C30FFE30008D4E6 /* Build configuration list for PBXNativeTarget "Device_InfoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +525,7 @@
 				90EF77641C30FFE30008D4E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
