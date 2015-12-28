@@ -79,7 +79,8 @@
 		90EF772B1C30FFE20008D4E6 = {
 			isa = PBXGroup;
 			children = (
-				90EF77361C30FFE20008D4E6 /* Device_Info */,
+				90F006901C31107D00558B26 /* Source */,
+				90EF77361C30FFE20008D4E6 /* Exapmle */,
 				90EF774B1C30FFE20008D4E6 /* Device_InfoTests */,
 				90EF77561C30FFE20008D4E6 /* Device_InfoUITests */,
 				90EF77351C30FFE20008D4E6 /* Products */,
@@ -96,16 +97,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		90EF77361C30FFE20008D4E6 /* Device_Info */ = {
+		90EF77361C30FFE20008D4E6 /* Exapmle */ = {
 			isa = PBXGroup;
 			children = (
-				90F006901C31107D00558B26 /* Source */,
-				90F006911C31109100558B26 /* Example */,
+				90EF77371C30FFE20008D4E6 /* AppDelegate.swift */,
+				90EF77391C30FFE20008D4E6 /* ViewController.swift */,
 				90EF773B1C30FFE20008D4E6 /* Main.storyboard */,
 				90EF773E1C30FFE20008D4E6 /* Assets.xcassets */,
 				90EF77401C30FFE20008D4E6 /* LaunchScreen.storyboard */,
 				90EF77431C30FFE20008D4E6 /* Info.plist */,
 			);
+			name = Exapmle;
 			path = Device_Info;
 			sourceTree = "<group>";
 		};
@@ -133,15 +135,7 @@
 				90EF77651C30FFF10008D4E6 /* iDevices.swift */,
 			);
 			name = Source;
-			sourceTree = "<group>";
-		};
-		90F006911C31109100558B26 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				90EF77371C30FFE20008D4E6 /* AppDelegate.swift */,
-				90EF77391C30FFE20008D4E6 /* ViewController.swift */,
-			);
-			name = Example;
+			path = Device_Info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
