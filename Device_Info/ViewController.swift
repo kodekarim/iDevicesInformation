@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         
         
         //Checking battery status
-        //        if(device.batteryState == .Charging(95)){
+        //        if(device.batteryState == .Charging(95)){ // here 95 is the batter % to check
         //            batteryStatus.text = "Charging"
         //            batteryStatus.textColor = UIColor.greenColor()
         //        }
@@ -39,11 +39,6 @@ class ViewController: UIViewController {
         //            batteryStatus.text = "Not Charging"
         //
         //        }
-        
-        
-        
-        
-        
         
         
     }
